@@ -1,5 +1,4 @@
 import Form from "../components/Form";
-
 let wrapper;
 
 beforeEach(() => {
@@ -7,6 +6,11 @@ beforeEach(() => {
 });
 
 describe("<Form /> rendering", () => {
+  test("render a label", () => {
+    const wrapper = shallow(<label>Hello Jest!</label>);
+    expect(wrapper).toMatchSnapshot();
+  });
+
   it("should render 1 <form>", () => {
     expect(wrapper.find("form")).toHaveLength(1);
   });

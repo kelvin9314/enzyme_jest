@@ -1,3 +1,3 @@
 module.exports = {
-  setupFiles: ["./__test__/setupTest.js"]
+  setupFiles: ["./__test__/setupTests.js"]
 };

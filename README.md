@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+主要練習在 develop branch 上
+
 ## Available Scripts
 
 In the project directory, you can run:
